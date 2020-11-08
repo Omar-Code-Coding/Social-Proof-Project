@@ -1,0 +1,21 @@
+
+.container {
+    width: 80vw;
+    height: 100vh;
+    margin: 7rem auto;
+    padding: 8.5rem 6.5rem;
+    background-color: white;
+    box-shadow: 0rem 1.2rem 2.5rem rgb(151, 151, 151);
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.2rem;
+}

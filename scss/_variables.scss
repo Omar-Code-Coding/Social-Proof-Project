@@ -1,0 +1,27 @@
+$color-primary-1: #502050; //very dark magenta
+$color-primary-2: #ee68a4; //soft pink
+
+$color-neutral-1: #937b92; //dark greyish magenta
+$color-neutral-2: #f7f2f7; //light greyish magenta
+
+@media (max-width: 51.2rem) {                // 768px 
+
+}
+
+@media (max-width: 68.2rem) {
+    .container {
+        width: 80vw;
+        height: 100vh;
+        margin: 7rem auto;
+        padding: 3rem 2.5rem;
+        background-color: white;
+        box-shadow: 0rem 1.2rem 2.5rem rgb(151, 151, 151);
+    }
+    
+    .top .rate {
+        display: flex;
+        flex-flow: column;
+        flex: 0 0 68%; 
+        height: 11rem;
+    }
+}
