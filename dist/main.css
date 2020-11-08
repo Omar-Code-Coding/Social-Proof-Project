@@ -21,13 +21,27 @@ body {
 }
 
 .container {
+  position: relative;
   width: 80vw;
-  height: 100vh;
+  height: 80vh;
   margin: 7rem auto;
   padding: 8.5rem 6.5rem;
   background-color: white;
   -webkit-box-shadow: 0rem 1.2rem 2.5rem #979797;
           box-shadow: 0rem 1.2rem 2.5rem #979797;
+}
+
+.container__top-img {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  background-position: center;
+}
+
+.container__bottom-img {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
 }
 
 .top {
@@ -55,9 +69,9 @@ body {
 @media (max-width: 68.2rem) {
   .container {
     width: 80vw;
-    height: 100vh;
+    height: 80vh;
     margin: 7rem auto;
-    padding: 3rem 2.5rem;
+    padding: 9rem 2.5rem;
     background-color: white;
     -webkit-box-shadow: 0rem 1.2rem 2.5rem #979797;
             box-shadow: 0rem 1.2rem 2.5rem #979797;
@@ -71,9 +85,37 @@ body {
         -ms-flex-flow: column;
             flex-flow: column;
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 68%;
-            flex: 0 0 68%;
+        -ms-flex: 0 0 55%;
+            flex: 0 0 55%;
     height: 11rem;
+  }
+  .top .rate__reviews {
+    margin: 0 5rem 0 1rem;
+  }
+  .top .rate__report {
+    margin: 0 2rem 0 2rem;
+  }
+  .top .rate__best {
+    margin-left: 4rem;
+  }
+  .top .headline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    margin-left: 1.5rem;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 33%;
+            flex: 0 0 33%;
+    z-index: 3;
   }
 }
 
@@ -94,6 +136,7 @@ body {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 33%;
           flex: 0 0 33%;
+  z-index: 3;
 }
 
 .headline__main {
@@ -119,6 +162,7 @@ body {
       -ms-flex: 0 0 52%;
           flex: 0 0 52%;
   height: 11rem;
+  z-index: 3;
 }
 
 .rate__reviews, .rate__report, .rate__best {
@@ -181,6 +225,7 @@ body {
   border-radius: .5rem;
   background-color: #502050;
   color: #f7f2f7;
+  z-index: 3;
 }
 
 .statement-colton:not(:last-child), .statement-irene:not(:last-child), .statement-anne:not(:last-child) {
