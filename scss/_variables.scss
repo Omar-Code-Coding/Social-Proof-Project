@@ -13,37 +13,25 @@ $color-neutral-2: #f7f2f7; //light greyish magenta
         width: 80vw;
         height: 80vh;
         margin: 7rem auto;
-        padding: 9rem 2.5rem;
+        padding: 5rem 1rem;
         background-color: white;
         box-shadow: 0rem 1.2rem 2.5rem rgb(151, 151, 151);
     }
 
-    
     .top .rate {
         display: flex;
         flex-flow: column;
-        flex: 0 0 55%; 
+        justify-content: center;
+        flex: 0 0 52%;
         height: 11rem;
-
-        &__reviews {
-            margin: 0 5rem 0 1rem;
-        }
-
-        &__report {
-            margin: 0 2rem 0 2rem;
-        }
-
-        &__best {
-            margin-left: 4rem;
-        }
+        z-index: 3;
     }
-
     .top .headline {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-self: flex-start;
-        margin-left: 1.5rem;
+        margin-right: 2rem;
         flex: 0 0 33%;
         z-index: 3;
     }

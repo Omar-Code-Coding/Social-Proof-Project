@@ -11,8 +11,8 @@
     flex-direction: column;
     justify-content: center;
     align-self: flex-start;
-    margin-right: 2.3rem;
-    flex: 0 0 33%;
+    margin-right: 7.3rem;
+    flex: 0 0 30%;
     z-index: 3;
 
     &__main {
@@ -34,10 +34,10 @@
 .rate {
     display: flex;
     flex-flow: column;
-    flex: 0 0 52%;
+    justify-content: center;
+    flex: 0 0 38%;
     height: 11rem;
     z-index: 3;
-    //margin-right: 4rem;
     
     &__reviews,
     &__report,
@@ -45,7 +45,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        flex: 0 1 29.6rem;
+        flex: 0 1 100%;
         border-radius: .4rem;
         background-color: $color-neutral-2;
 
@@ -55,16 +55,17 @@
     }
 
     &__reviews {
-        margin: 0 5rem 0 5rem;
-        padding: 0 2rem 0 1.1rem;
+        margin-right: 4rem;
+        padding-right: 1rem;
     }
 
     &__report {
-        margin: 0 2.4rem 0 8rem;
-        padding: 0 1.5rem 0 1rem;
+        margin: 0 2rem 0 2rem;
     }
+
     &__best {
-        margin-left: 11.5rem;
+        margin-left: 4rem;
+        padding-right: 1rem;
     }
 
     &__icon {
@@ -88,7 +89,7 @@
     &-anne {
         display: flex;
         flex-wrap: wrap;
-        flex: 0 1 28%;
+        flex: 0 1 25%;
         padding: 2rem 0;
         border-radius: .5rem;
         background-color: $color-primary-1;

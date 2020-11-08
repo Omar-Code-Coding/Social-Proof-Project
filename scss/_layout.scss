@@ -4,7 +4,7 @@
     width: 80vw;
     height: 80vh;
     margin: 7rem auto;
-    padding: 8.5rem 6.5rem;
+    padding: 10vh 2vw;
     background-color: white;
     box-shadow: 0rem 1.2rem 2.5rem rgb(151, 151, 151);
 
@@ -23,12 +23,14 @@
 }
 
 .top {
+    height: 50%;
     display: flex;
     justify-content: center;
 }
 
 .bottom {
     display: flex;
+    height: 50%;
     justify-content: center;
     align-items: center;
     padding-top: 2.2rem;
