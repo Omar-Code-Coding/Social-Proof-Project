@@ -1,11 +1,25 @@
 
 .container {
+    position: relative;
     width: 80vw;
     height: 100vh;
     margin: 7rem auto;
     padding: 8.5rem 6.5rem;
     background-color: white;
     box-shadow: 0rem 1.2rem 2.5rem rgb(151, 151, 151);
+
+    &__top-img {
+        position: absolute;
+        top: 0;
+        z-index: 1;
+        background-position: center;
+    }
+
+    &__bottom-img {
+        position: absolute;
+        bottom: 0;
+        z-index: 1;
+    }
 }
 
 .top {

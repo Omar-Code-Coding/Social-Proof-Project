@@ -13,6 +13,7 @@
     align-self: flex-start;
     margin-right: 2.3rem;
     flex: 0 0 33%;
+    z-index: 3;
 
     &__main {
         color: $color-primary-1;
@@ -35,6 +36,7 @@
     flex-flow: column;
     flex: 0 0 52%;
     height: 11rem;
+    z-index: 3;
     //margin-right: 4rem;
     
     &__reviews,
@@ -91,6 +93,7 @@
         border-radius: .5rem;
         background-color: $color-primary-1;
         color: $color-neutral-2;
+        z-index: 3;
 
         &:not(:last-child) {
             margin-right: 1.5rem;

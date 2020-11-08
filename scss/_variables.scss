@@ -8,7 +8,7 @@ $color-neutral-2: #f7f2f7; //light greyish magenta
 
 }
 
-@media (max-width: 68.2rem) {
+@media (max-width: 68.2rem) {             //1024px
     .container {
         width: 80vw;
         height: 100vh;
@@ -17,11 +17,34 @@ $color-neutral-2: #f7f2f7; //light greyish magenta
         background-color: white;
         box-shadow: 0rem 1.2rem 2.5rem rgb(151, 151, 151);
     }
+
     
     .top .rate {
         display: flex;
         flex-flow: column;
-        flex: 0 0 68%; 
+        flex: 0 0 55%; 
         height: 11rem;
+
+        &__reviews {
+            margin: 0 5rem 0 1rem;
+        }
+
+        &__report {
+            margin: 0 2rem 0 2rem;
+        }
+
+        &__best {
+            margin-left: 4rem;
+        }
+    }
+
+    .top .headline {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: flex-start;
+        margin-left: 1.5rem;
+        flex: 0 0 33%;
+        z-index: 3;
     }
 }
